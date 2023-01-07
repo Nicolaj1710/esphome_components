@@ -134,7 +134,7 @@ binary_sensor:
     name: "Door open"
     id: nilan_door_open
     register_type: read
-    address: 102
+    address: 3000
     bitmask: 1
     
   - platform: modbus_controller
