@@ -51,8 +51,8 @@ sensor:
     accuracy_decimals: 1
     register_type: read
     address: 1204
-#    filters:
-#      - multiply: 0.01
+    filters:
+      - multiply: 0.01
       
 ###########################
 #### HOLDING REGISTERS ####
